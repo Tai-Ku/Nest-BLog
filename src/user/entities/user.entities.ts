@@ -20,6 +20,9 @@ export class User {
   last_name: string;
 
   @Column()
+  password: string;
+
+  @Column()
   refresh_token: string;
 
   @Column({ default: 1 })
